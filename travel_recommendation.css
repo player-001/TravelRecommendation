@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.336);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+nav div{
+    display: inline;
+}
+
+li{
+  list-style-type: none;  
+  margin-left: 1.5rem;
+  display: inline;
+}
+a{
+    text-decoration: none;
+}
