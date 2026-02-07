@@ -52,6 +52,7 @@ function searchAndDisplay(){
 function resetSearch(){
     var result = document.getElementById("result")
     result.innerHTML = ""
+    document.getElementById("search").value = ""
 }
 searchBtn.addEventListener("click", searchAndDisplay)
 reset.addEventListener("click", resetSearch)

@@ -93,11 +93,11 @@ a{
 .white_large{
     color: white;
     font-size: 1.5rem;
+    font-weight:bolder;
 }
 
 .white_larger{
     color: white;
-    
 }
 
 button{
