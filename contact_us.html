@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel = "stylesheet" href = "./travel_recommendation.css">
+        <style>
+            form input, form textarea, form button{
+                width: 90%;
+                margin: 0.2rem;
+            }
+            form{
+                padding: 0.5rem;
+                background-color:gray;
+                width: 35%;
+            }
+            button{
+                background-color: lightblue;
+                padding: 0.5rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href = "./travel_recommendation.html">Home</a></li>
+                <li><a href = "./about_us.html">About Us</a></li>
+                <li><a href = "./contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <h1>Contact Us</h1>
+        <form>
+            <label for = "name">Name: </label><br>
+            <input id = "name" type = "text" width = "60"><br>
+            <label for = "email">Email: </label><br>
+            <input type = "email" id = "email" required><br>
+            <label for = "message">Message</label><br>
+            <textarea id = "message" rows = "10"></textarea><br>
+            <button type = "submit">Submit</button>
+        </form>
+    </body>
+</html>

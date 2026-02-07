@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    
 }
 
 nav{
@@ -12,15 +13,43 @@ nav{
     padding: 1.2rem;
 }
 
-nav div{
-    display: inline;
+li div{
+    display: inline-block;
 }
 
 li{
   list-style-type: none;  
   margin-left: 1.5rem;
-  display: inline;
+  display: inline
 }
 a{
     text-decoration: none;
+    
+}
+
+#aboutContainer{
+    display: flex;
+}
+
+#aboutContainer div{
+    padding: 5px;
+    margin: 10px;
+    background-color:rgba(128, 128, 128, 0.274);
+}
+
+.text_fixed{
+    width: 15rem;
+}
+
+#result{
+    position: absolute;
+    width: 40rem;
+    height: 10rem;
+    background-color: gray;
+    
+   
+}
+#search {
+    width: 35rem;
+    display: inline;
 }
