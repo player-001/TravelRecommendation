@@ -7,7 +7,7 @@
 
 nav{
     display: flex;
-    background-color: rgba(128, 128, 128, 0.336);
+    background-color: rgba(255, 255, 255, 0.548);
     align-items: center;
     justify-content: space-between;
     padding: 1.2rem;
@@ -24,6 +24,9 @@ li{
 }
 a{
     text-decoration: none;
+    color: rgb(52, 71, 15);
+    font-weight: bolder;
+    font-size: 1.5rem;
     
 }
 
@@ -34,22 +37,69 @@ a{
 #aboutContainer div{
     padding: 5px;
     margin: 10px;
-    background-color:rgba(128, 128, 128, 0.274);
+    background-color:rgba(0, 0, 0, 0.596);
+    font-size: 2rem;
+    color: white
 }
 
 .text_fixed{
-    width: 15rem;
+    width: 30rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
 }
 
 #result{
     position: absolute;
-    width: 40rem;
-    height: 10rem;
-    background-color: gray;
-    
-   
+    width: 25rem;
+    display: block;
 }
 #search {
     width: 35rem;
     display: inline;
+    padding: 0.4rem;
+}
+
+.tile{
+    display: block;
+    border-radius: 0%;
+    background-color: rgba(0, 0, 0, 0.733);
+    /*height: 40rem;  do not define a height if you want it to be dynamically adjusted based on content length automatically*/
+    width: 35rem;
+    color: white;
+    margin: 1rem;
+    
+}
+
+.tile img {
+    width: 35rem;
+    height: 20rem;
+}
+.tile *{
+    display: block;
+}
+
+.background_img{
+    position: absolute;
+    display: inline;
+    z-index: -1;
+}
+
+#title{
+    font-size: 12rem;
+    color: rgb(147, 255, 97);
+}
+
+.white_large{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.white_larger{
+    color: white;
+    
+}
+
+button{
+    padding: 0.3rem;
 }
